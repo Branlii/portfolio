@@ -14,6 +14,7 @@ export default function Experiences() {
       perView: 1,
       spacing: 25,
     },
+    renderMode: 'performance',
   })
 
   return (
@@ -85,16 +86,16 @@ export default function Experiences() {
               <h4 className={`${inter.className} text-textPrimary text-xl mb-5`}>Loose projects / WIP</h4>
               <ul className='list-disc ml-8 text-textSecondary'>
                 <li>2 mobile apps : Push-Up Calculator and Shoppist</li>
-                <ol className='list-decimal ml-6 mt-1 mb-4 text-textSecondary text-sm'>
-                  <li>Push-Up Calculator : Created for my personal use, it calculates the number of push-ups I had to make per day based on a challenge by a friend. (loose)</li>
-                  <li>Shoppist : Made to help small groups like family or friends group, to centralize their shopping needs for a party or everyday life. (loose)</li>
+                <ol className='list-decimal ml-6 mt-1 mb-6 text-textSecondary text-sm'>
+                  <li><span className='text-textPrimary'>Push-Up Calculator</span> : Created for my personal use, it calculates the number of push-ups I had to make per day based on a challenge by a friend. Coded in React Native. (loose)</li>
+                  <li><span className='text-textPrimary'>Shoppist</span> : Made to help small groups like family or friends group, to centralize their shopping needs for a party or everyday life. Coded in React Native. (loose)</li>
                 </ol>
-                <li>Snak : A tool to help businesses handle their reservations and assist in their client needs</li>
+                <li><span className='text-textPrimary text-lg'>Snak</span> : A tool to help businesses handle their reservations and assist in their client needs</li>
               </ul>
             </div>
             
             <div className='flex flex-col items-center gap-3'>
-            <span className='text-textSecondary text-xs text-center'>Code from PeerBerry Boat, a PeerBerry scraper</span>
+            <span className='text-textSecondary text-xs text-center'>Photo by <Link className='text-textPrimary underline' href="https://unsplash.com/@ffstop?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fotis Fotopoulos</Link> on <Link className='text-textPrimary underline' href="https://unsplash.com/photos/two-black-flat-screen-computer-monitors-LJ9KY8pIH3E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</Link></span>
               <span className='text-textSecondary'>April - June 2023</span>
             </div>
           </div>
