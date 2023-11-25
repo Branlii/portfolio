@@ -4,7 +4,7 @@ import Chip from '../Chip'
 
 export default function HardSkills() {
   return (
-    <div className='flex flex-row flex-wrap mx-6 my-4 gap-6'>
+    <div className='flex flex-row flex-wrap sm:mx-6 my-4 gap-6'>
       <Chip
         color='yellow'
         label='Javascript'

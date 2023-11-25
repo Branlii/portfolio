@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer className='w-full fixed bottom-0 flex flex-row justify-between px-12 py-7'>
-      <div className='flex flex-row justify-between w-44'>
+    <footer className='w-full fixed bottom-0 flex flex-row items-center justify-between sm:px-12 px-4 py-7'>
+      <div className='flex flex-row justify-between sm:w-44 w-40'>
         <Link href='https://github.com/Branlii?tab=repositories'>
           <Github width={40} fill='#E3DCC2' className='transition ease-in-out duration-300 hover:fill-textPrimary'/>
         </Link>
@@ -18,7 +18,7 @@ export default function Footer() {
         </Link>
       </div>
       <Link href='mailto:guillot.raphael11@gmail.com'>
-        <span className='text-textSecondary transition ease-in-out duration-300 hover:text-textPrimary'>guillot.raphael11@gmail.com</span>
+        <span className='text-textSecondary transition ease-in-out duration-300 hover:text-textPrimary text-sm sm:text-md'>guillot.raphael11@gmail.com</span>
       </Link>
     </footer>
   )
