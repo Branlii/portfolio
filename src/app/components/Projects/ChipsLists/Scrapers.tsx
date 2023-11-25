@@ -4,7 +4,7 @@ import Chip from '../../Chip'
 
 export default function SchoolProjects() {
   return (
-    <div className='flex flex-row flex-wrap mx-6 my-10 gap-6'>
+    <div className='hidden lg:flex flex-row flex-wrap mx-6 my-10 gap-6'>
       <Chip
         color='yellow'
         label='Javascript'

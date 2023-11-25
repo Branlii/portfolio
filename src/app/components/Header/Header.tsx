@@ -20,9 +20,9 @@ export default function Header() {
 
   return (
     <>
-      <header className='flex flex-row justify-between items-center p-10'>
-        <h2 className={`${inter.className} text-textSecondary text-6xl`}>Raphaël<br/>Guillot</h2>
-        <Image src="/profile_picture.jpg" alt="Profile picture" width={150} height={150} className='rounded-full object-cover'/>
+      <header className='flex flex-row justify-between items-center py-10 sm:px-10 px-4'>
+        <h2 className={`${inter.className} text-textSecondary sm:text-6xl text-5xl`}>Raphaël<br/>Guillot</h2>
+        <Image src="/profile_picture.jpg" alt="Profile picture" width={120} height={120} className='rounded-full object-cover'/>
       </header>
     </>
   )
